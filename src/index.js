@@ -38,7 +38,7 @@ app.use(bodyParser.urlencoded({
 
 app.use(flash());
 
-app.set('port', process.env.PORT || 3000);
+app.set('port', process.env.PORT || 8080);
 //app.set('view engine','ejs');
 app.set('views',path.join(__dirname,'views'));
 //app.use(expressLayouts);
